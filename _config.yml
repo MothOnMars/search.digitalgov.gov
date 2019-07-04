@@ -25,3 +25,9 @@ posts_tag_layout: tag
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  categories:
+    - blog
+    - releases

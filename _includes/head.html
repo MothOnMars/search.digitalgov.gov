@@ -2,6 +2,7 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   {% if page.metatags %} <meta name="robots" content="{{page.metatags}}">{% endif %}
+  {% feed_meta %}
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="author" content="">
