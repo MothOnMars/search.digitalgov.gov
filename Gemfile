@@ -8,6 +8,7 @@ gem 'rspec'
 gem 'sass', '~> 3.2.19'
 gem 'therubyracer'
 gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'
 
 group :test, :development do
   gem 'pry'
